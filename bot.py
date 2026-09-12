@@ -2,7 +2,8 @@
 # --------------------------------------------------
 # Unencrypted Configuration (Editable)
 # --------------------------------------------------
-TOKEN = "8896618789:AAHsAtnGCY1g_VNdanAQcIhaucd3jAJ8qfw"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
 # --------------------------------------------------
 # Protected Source Code
